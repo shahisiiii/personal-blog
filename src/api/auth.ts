@@ -2,7 +2,7 @@ import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 
 // Update API_URL to the correct base URL without trailing slash
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://personal-blog-production-9019.up.railway.app/api';
 
 // Define interfaces
 interface LoginCredentials {

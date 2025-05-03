@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-3y(o_wdp6oz5h-sd@e04=#s+$c@+!9$r8l=vjy6+&1b6d5u0e=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['personal-blog-production-9019.up.railway.app','localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
@@ -128,6 +128,9 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default port
     "http://127.0.0.1:5173",
+    "https://personal-blog-lovat-two.vercel.app/"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
