@@ -138,7 +138,6 @@ python-magic==0.4.27
 pyttsx3==2.90
 pytube==15.0.0
 pytz==2024.1
-pywin32-ctypes==0.2.2
 PyYAML==6.0.1
 redis==4.6.0
 referencing==0.35.1
