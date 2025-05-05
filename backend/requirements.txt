@@ -97,7 +97,6 @@ mdurl==0.1.2
 more-itertools==10.5.0
 msgpack==1.1.0
 networkx==3.2.1
-numpy==1.26.4
 oauthlib==3.2.2
 opencv-contrib-python==4.10.0.82
 opencv-python==4.6.0.66
@@ -139,7 +138,6 @@ python-magic==0.4.27
 pyttsx3==2.90
 pytube==15.0.0
 pytz==2024.1
-pywin32==306
 pywin32-ctypes==0.2.2
 PyYAML==6.0.1
 redis==4.6.0
@@ -186,3 +184,4 @@ whitenoise==6.3.0
 wrapt==1.14.1
 yapf==0.28.0
 zipp==3.18.1
+numpy>=1.24.0  
