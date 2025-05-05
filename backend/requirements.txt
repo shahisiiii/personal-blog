@@ -160,15 +160,15 @@ SpeechRecognition==3.10.4
 sqlparse==0.4.3
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
-tensorboardX==1.8
+# tensorboardX==1.8
 tifffile==2024.5.22
 tokenizers==0.15.2
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.11.6
 torch==2.2.2
-torchaudio==0.10.0+cpu
-torchvision==0.11.1+cpu
+# torchaudio==0.10.0+cpu
+# torchvision==0.11.1+cpu
 tqdm==4.66.2
 transformers==4.39.3
 typeguard==4.3.0
